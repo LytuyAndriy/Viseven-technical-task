@@ -1,0 +1,254 @@
+*{
+    width: 1445px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #070707;
+    
+}
+header{
+    width: 945px;
+    height: 50px;
+    border-bottom:  1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);;
+ }
+.container header nav{
+    width: 945px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+   }
+header nav a{
+    width: 90px;
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    color: #828282;
+    cursor: pointer;
+    list-style-type: none;
+}
+header nav a:hover{
+    color: #070707;
+}
+.info{
+    width: 945px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.info h1{
+    width: 360px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47.3392px;
+    line-height: 55px;
+    padding:35px 0px 55px 0; 
+    /* Black */
+    margin: 0;
+    color: #070707;
+}
+.info p{
+    width: 259px;
+    height: 50px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: right;
+padding:41px 0px 39px 0;
+margin: 0;
+
+}
+
+.scrin ,.scrin img{
+    width: 945px;
+    padding-bottom: 50px;
+}
+.AboutMe{
+    background: #F4F4F4;
+}
+.AboutMe h2{
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 46px;
+}
+
+.info_aboutme{
+    display: flex;
+    justify-content: center;
+    width: 945px;
+    }
+
+.photo,.photo img{
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+
+}
+
+.about_me_info p{
+   width: 451px;
+}
+.about_me_info p:nth-child(2),.about_me_info p:nth-child(3){
+    padding-top: 25px;
+}
+
+.about_me_info{
+    width: 451px;
+    height: 220px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #070707;
+    padding: 161px 0px 160px 44px;
+    
+}
+.skills{
+    width: 1445px;
+}
+.skills h2{
+    width: 945px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+color: #070707;
+
+}
+.icon{
+    display: flex;
+    width: 945px;
+    justify-content: space-around;
+}
+.icons{
+    width: 170px;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons img{
+    width: 100px;
+    height: 90px;
+}
+.icons .figma{    
+    width: 60px;
+    height: 90px;
+}
+.icons h3{
+    width: 76px;
+    height: 27px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+padding-top: 25px;
+
+color: #828282;
+}
+.icons span{
+    display: flex;
+    padding-top: 40px;
+    width: 100%;
+    justify-content: center;
+
+}
+span .fas{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+.portfolio{
+    width: 1445px;
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio h2{
+    width: 945px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+padding: 50px 0px 50px 0px;
+}
+.gallery{
+    width: 945px;
+}
+.gallery img,.gallery video{
+    width: 945px;
+    height: 510px;
+}
+.gallery h3{
+    width: 945px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    padding-top: 40px;
+    padding-bottom: 86px;
+}
+.portfolio .gallery h3:last-child{
+    padding-bottom: 50px;
+}
+.g video{
+height: 750px;
+}
+.contact{
+    width: 1445px;
+}
+.contact h2{
+    width: 945px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+color: #070707;
+padding-top: 50px;
+padding-bottom: 37px;
+}
+.icon_contact{
+    justify-content: center;
+    width: 945px;
+    display: flex;
+    padding-bottom: 60px;
+}
+.icon_contact img{
+    width:40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
